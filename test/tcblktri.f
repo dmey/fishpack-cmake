@@ -175,7 +175,7 @@ C
   112 CONTINUE
       IW = INT(W(1))
       PRINT 1001 , IERROR,ERR,IW
-      STOP
+      STOP IERROR
 C
  1001 FORMAT (1H1,20X,25HSUBROUTINE CBLKTR EXAMPLE,//
      1        10X,"** important for TCBLKTRI example: to avoid  **",/
