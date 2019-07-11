@@ -1,7 +1,6 @@
 # FISHPACK-CMake (https://github.com/dmey/fishpack-cmake).
 # Copyright (C) 2019 D. Meyer.
 
-
 cmake_minimum_required(VERSION 3.0)
 project(FISHPACK Fortran)
 
