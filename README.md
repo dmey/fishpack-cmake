@@ -26,7 +26,7 @@ Go into `fishpack-cmake` and run the following commands from your command-line i
 
 ```sh
 mkdir build && cd build
-cmake -DCMAKE_BUILD_TYPE=Release -DTESTS=ON ..
+cmake -DCMAKE_BUILD_TYPE=Release -DUSE_REAL8=ON -DTESTS=ON ..
 make # Creates shared and dynamic library
 ctest # Run tests
 ```
